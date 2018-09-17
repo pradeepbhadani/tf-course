@@ -9,6 +9,6 @@ provider "aws" {
 resource "aws_instance" "my_instance" {
   ami           = "ami-d874e0a0"
   instance_type = "t2.micro"
-  subnet_id     = "subnet-12345"
-  key_name      = "mykeypair"
+  subnet_id     = "subnet-12345" # Update this value with your subnet-id
+  key_name      = "mykeypair"    # Update this value with your keypair name
 }
