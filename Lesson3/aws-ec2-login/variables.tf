@@ -9,19 +9,19 @@ variable "region" {
   default     = "us-west-2"
 }
 
-variable "aws-ami-id" {
+variable "aws_ami_id" {
   description = "AWS AMI Id"
   type        = "string"
   default     = "ami-d874e0a0"
 }
 
-variable "instance-type" {
+variable "instance_type" {
   description = "Instance type"
   type        = "string"
   default     = "t2.micro"
 }
 
-variable "subnet-id" {
+variable "subnet_id" {
   description = "Subnet ID for spinning up AWS EC2 instance."
   type        = "string"
 }
